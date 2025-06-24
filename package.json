@@ -2,8 +2,9 @@
   "name": "ion-v1-project",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Ion Digital Legacy Platform",
   "dependencies": {
-    "@vercel/blob": "^0.23.4"
+    "@vercel/blob": "latest"
   }
 }
