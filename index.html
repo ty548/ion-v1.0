@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ion - 연결된 기억, 영원한 교감</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glassmorphism">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold gradient-text">Ion</a>
+            <nav class="hidden md:flex items-center space-x-8 text-gray-300">
+                <a href="#values" class="hover:text-white transition-colors">핵심 가치</a>
+                <a href="#ai-chat-demo" class="hover:text-white transition-colors">AI 교감 체험</a>
+                <a href="#nfts" class="hover:text-white transition-colors">NFT 컬렉션</a>
+                <a href="#testimonials" class="hover:text-white transition-colors">성공 사례</a>
+                <a href="#partners" class="hover:text-white transition-colors">파트너</a>
+                <a href="#pricing" class="hover:text-white transition-colors">플랜</a>
+            </nav>
+            <button id="header-consult-btn" class="hidden md:inline-block bg-white text-[var(--primary)] px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition-colors">상담 신청</button>
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 text-center">
+            <nav class="flex flex-col space-y-4 text-gray-300">
+                <a href="#values" class="hover:text-white transition-colors py-2">핵심 가치</a>
+                <a href="#ai-chat-demo" class="hover:text-white transition-colors py-2">AI 교감 체험</a>
+                <a href="#nfts" class="hover:text-white transition-colors py-2">NFT 컬렉션</a>
+                <a href="#testimonials" class="hover:text-white transition-colors py-2">성공 사례</a>
+                <a href="#partners" class="hover:text-white transition-colors py-2">파트너</a>
+                <a href="#pricing" class="hover:text-white transition-colors py-2">플랜</a>
+                <a href="#faq" class="hover:text-white transition-colors py-2">FAQ</a>
+                <button id="mobile-consult-btn" class="w-full text-center bg-white text-[var(--primary)] px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors">상담 신청</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- All sections (Hero, Values, etc.) go here -->
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+    <!-- Modals go here -->
+    <div id="consultationModal" class="modal">
+        <!-- Modal content goes here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
